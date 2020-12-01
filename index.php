@@ -58,21 +58,84 @@
           <div id="lists">
          <!-- Sidebar -->
          <ul id="list" class="sidebar navbar-nav list">
+		    <li class="nav-item">
+               <a class="channel nav-link" data-value="https://tc-live1.sanook.com/live/22302_ch5.m3u8" href="javascript:void(0);">CH5</a>
+            </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="https://d1vftv9up76vki.cloudfront.net/out/v1/6f27e3bde7274af6b06befa08cd839d7/master.m3u8" href="javascript:void(0);">Blutv Aksiyon</a>
+               <a class="channel nav-link" data-value="https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist_w1578972109.m3u8" href="javascript:void(0);">Mono HD</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://160.119.77.50/iptv/hd-ch7.stream/playlist.m3u8" href="javascript:void(0);">CH7 HD</a>
             </li>
 			<li class="nav-item">
-               <a class="channel nav-link" data-value="https://d20aqhpvpegrs2.cloudfront.net/out/v1/d9da7879327241d3831f39b61016a353/master.m3u8" href="javascript:void(0);">Blutv Komedi</a>
+               <a class="channel nav-link" data-value="http://livecdnh3.tvanywhere.ae/hls/docubox/04.m3u8" href="javascript:void(0);">Docu Box</a>
             </li>
-			<li class="nav-item">
-               <a class="channel nav-link" data-value="http://tv-trt1.live.trt.com.tr/master.m3u8" href="javascript:void(0);">TRT 1</a>
-            </li>	
-			<li class="nav-item">
-               <a class="channel nav-link" data-value="http://fmeaddons.net/xxx/XXX:Used_and_abused_teen-1231962.mp4" href="javascript:void(0);">MP4 Test</a>
-            </li>	
-			<li class="nav-item">
-               <a class="channel nav-link" data-value="http://fmeaddons.net/xxx/XXX:A_Perfect_Teen_Slut.mp4" href="javascript:void(0);">MP4 Test 2</a>
-            </li>				
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://fash1043.cloudycdn.services/slive/_definst_/ftv_paris_adaptive.smil/chunklist_b4500000_t64MTA4MHA=.m3u8" href="javascript:void(0);">Fashion Paris</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://fash1043.cloudycdn.services/slive/ftv_pg13_adaptive.smil/chunklist_b4700000_t64MTA4MHA=.m3u8" href="javascript:void(0);">Fashion Destination</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b4700000_t64MTA4MHA=.m3u8" href="javascript:void(0);">Fashion Midnight</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://d3cs5y5559s57s.cloudfront.net/live/channelk.m3u8" href="javascript:void(0);">Channel K</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://yangon1.akamaized.net/live/19daddcf-0f46-4a14-988e-14bc15f03298/prod/playlist.m3u8" href="javascript:void(0);">5Plus</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://220.158.149.14:9999/live/TV00000000000000000089@HHZT;" href="javascript:void(0);">MRTV</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://220.158.149.14:9999/live/TV00000000000000000092@HHZT;" href="javascript:void(0);">MizzimaTV</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://220.158.149.14:9999/live/TV00000000000000000091@HHZT;" href="javascript:void(0);">Channel-9</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://104275ooyala-lh.akamaihd.net/i/forevergroup_02@449366/master.m3u8" href="javascript:void(0);">MRTV-4</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://104275ooyala-lh.akamaihd.net/i/forevergroup_01@449365/master.m3u8" href="javascript:void(0);">Mahar Bawdi</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://104275ooyala-lh.akamaihd.net/i/forevergroup_03@449367/master.m3u8" href="javascript:void(0);">Channel 7</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://maharlive.b-cdn.net/stream.m3u8" href="javascript:void(0);">Mahar</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://220.158.149.14:9999/live/TV00000000000000000090@HHZT;" href="javascript:void(0);">Mitv</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://edge1a.v2h-cdn.com/appt7/MVM.stream_720p/chunklist_w2034544246.m3u8" href="javascript:void(0);">MVTV </a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://203.81.84.130/hls/mwd/index.m3u8" href="javascript:void(0);">MWD Variety</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://203.81.84.130/hls/mwd_variety/index.m3u8" href="javascript:void(0);">MWD</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://edge-stream-07.otv.co.th./livestream/Hluttaw.stream/playlist.m3u8" href="javascript:void(0);">MRTV Hluttaw</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://edge-stream-07.otv.co.th/livestream/Reader-Channel.stream/playlist.m3u8" href="javascript:void(0);">Reader Channel</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://edge-stream-07.otv.co.th./livestream/MNTV.stream/playlist.m3u8" href="javascript:void(0);">MNTV</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://edge-stream-07.otv.co.th./livestream/MRTV-Entertainment.stream/playlist.m3u8" href="javascript:void(0);">MRTV Entertainment</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://edge-stream-07.otv.co.th/livestream/DVB.stream/playlist.m3u8" href="javascript:void(0);">DVB</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://edge-stream-07.otv.co.th/livestream/DVB.stream/playlist.m3u8" href="javascript:void(0);">DVB</a>
+            </li>
          </ul>
          </div>
          <div id="content-wrapper">
@@ -98,8 +161,11 @@
                             <script>
                                 var playerElement = document.getElementById("TeLaSe");
                                 var player = new Clappr.Player({
-                                    source: "",
-                                    //mimeType: 'application/x-mpegURL',
+                                    source: "https://tc-live1.sanook.com/live/22302_ch5.m3u8",
+                                    //mimeType: 'application/x-mpegurl',
+									//mimeType: 'application/vdn.apple.mpegURL',
+									//mimeType: 'application/octet-stream',
+									//mimeType: 'application/x-www-form-urlencoded',
                                     width: '100%',
                                     height: 'calc(100vh - 100px)',
                                     autoPlay: true,
@@ -114,6 +180,8 @@
                                     chromecast: {
                                         appId: "9DFB77C0",
                                         contentType: "video/m3u8",
+										contentType: "video/mp2t",
+										contentType: "video/mp4",
                                         media: {
                                             type: ChromecastPlugin.Movie,
                                             title: "IPTV",
