@@ -18,13 +18,32 @@
       <!-- Owl Carousel -->
       <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css">
       <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css">
-        <script src="dist/clappr.js"></script>	  
+	  	<script type="text/javascript">
+	  	<script src="dist/rtmp.min.js"></script>
+	    <script src="dist/clappr.js"></script>
+	    <script src="dist/clappr.js.map"></script>	 		
         <script src="dist/clappr.min.js"></script>
+		<script src="dist/clappr.min.js.map"></script>
+	    <script src="dist/clappr-chromecast-plugin.js"></script>
         <script src="dist/clappr-chromecast-plugin.min.js"></script>
         <script src="dist/clappr-chromecast-plugin.min.js.map"></script>		
         <script src="dist/level-selector.min.js"></script>
         <script src="dist/hlsjs-playback.min.js"></script>	
-        <script src="dist/playback.min.js"></script>		
+        <script src="dist/playback.min.js"></script>	
+        <script src="dist/dash-shaka-playback.js"></script>	
+        <script src="dist/clappr_dash.js"></script>	
+        <script src="dist/dash-shaka-playback.js"></script>	
+        <script src="dist/content.js"></script>	
+        <script src="dist/event.js"></script>
+        <script src="dist/player.js"></script>			
+		<script src="js/custom.js"></script> 
+        <script src="js/player.1.0.165.js"></script>		
+        <script src="js/jquery.js"></script>	 
+        <script src="js/jqueryui.js"></script>	 
+        <script src="js/cycle.js"></script>	 
+        <script src="js/swiper.js"></script>	 
+        <script src="js/nette.js"></script>	 
+        <script src="js/slick.min.js"></script>	 
         <script src="js/player-error.js"></script>
    </head>
    <body id="page-top">
@@ -59,81 +78,173 @@
          <!-- Sidebar -->
          <ul id="list" class="sidebar navbar-nav list">
 		    <li class="nav-item">
-               <a class="channel nav-link" data-value="https://tc-live1.sanook.com/live/22302_ch5.m3u8" href="javascript:void(0);">CH5</a>
+               <a class="channel nav-link" data-value="https://tv-trt1.live.trt.com.tr/master.m3u8" href="javascript:void(0);">TRT 1</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="https://edge2-bkk.3bb.co.th:9443/MONO29_HLS_1080P/mono29hls_1080TH.stream/chunklist_w1578972109.m3u8" href="javascript:void(0);">Mono HD</a>
+               <a class="channel nav-link" data-value="https://tv-trt2.live.trt.com.tr/master.m3u8" href="javascript:void(0);">TRT 2</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://160.119.77.50/iptv/hd-ch7.stream/playlist.m3u8" href="javascript:void(0);">CH7 HD</a>
+               <a class="channel nav-link" data-value="https://tv-trtavaz.live.trt.com.tr/master.m3u8" href="javascript:void(0);">TRT Avaz</a>
             </li>
 			<li class="nav-item">
-               <a class="channel nav-link" data-value="http://livecdnh3.tvanywhere.ae/hls/docubox/04.m3u8" href="javascript:void(0);">Docu Box</a>
+               <a class="channel nav-link" data-value="https://tv-trtcocuk.live.trt.com.tr/master.m3u8" href="javascript:void(0);">TRT Cocuk</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://fash1043.cloudycdn.services/slive/_definst_/ftv_paris_adaptive.smil/chunklist_b4500000_t64MTA4MHA=.m3u8" href="javascript:void(0);">Fashion Paris</a>
+               <a class="channel nav-link" data-value="https://tv-trthaber.live.trt.com.tr/master.m3u8" href="javascript:void(0);">TRT Haber</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://fash1043.cloudycdn.services/slive/ftv_pg13_adaptive.smil/chunklist_b4700000_t64MTA4MHA=.m3u8" href="javascript:void(0);">Fashion Destination</a>
+               <a class="channel nav-link" data-value="https://tv-trtkurdi.live.trt.com.tr/master.m3u8" href="javascript:void(0);">TRT Kurdi</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.smil/chunklist_b4700000_t64MTA4MHA=.m3u8" href="javascript:void(0);">Fashion Midnight</a>
+               <a class="channel nav-link" data-value="https://tv-trtmuzik.live.trt.com.tr/master.m3u8" href="javascript:void(0);">TRT Muzik</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="https://d3cs5y5559s57s.cloudfront.net/live/channelk.m3u8" href="javascript:void(0);">Channel K</a>
+               <a class="channel nav-link" data-value="https://tv-trtturk.live.trt.com.tr/master.m3u8" href="javascript:void(0);">TRT Türk</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://yangon1.akamaized.net/live/19daddcf-0f46-4a14-988e-14bc15f03298/prod/playlist.m3u8" href="javascript:void(0);">5Plus</a>
+               <a class="channel nav-link" data-value="https://tv-trtworld.live.trt.com.tr/master.m3u8" href="javascript:void(0);">TRT World</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://220.158.149.14:9999/live/TV00000000000000000089@HHZT;" href="javascript:void(0);">MRTV</a>
+               <a class="channel nav-link" data-value="https://tv-trtspor1.live.trt.com.tr/master.m3u8;" href="javascript:void(0);">TRT Spor</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://220.158.149.14:9999/live/TV00000000000000000092@HHZT;" href="javascript:void(0);">MizzimaTV</a>
+               <a class="channel nav-link" data-value="https://tv-trtspor2.live.trt.com.tr/master.m3u8;" href="javascript:void(0);">TRT Spor 2</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://220.158.149.14:9999/live/TV00000000000000000091@HHZT;" href="javascript:void(0);">Channel-9</a>
+               <a class="channel nav-link" data-value="http://lb.streaming.sk/fashiontv/stream/playlist.m3u8" href="javascript:void(0);">FashionTV Czech&Slovak</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://104275ooyala-lh.akamaihd.net/i/forevergroup_02@449366/master.m3u8" href="javascript:void(0);">MRTV-4</a>
+               <a class="channel nav-link" data-value="http://136.243.177.164/CINEMAX/playlist.m3u8" href="javascript:void(0);">CINEMAX</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://104275ooyala-lh.akamaihd.net/i/forevergroup_01@449365/master.m3u8" href="javascript:void(0);">Mahar Bawdi</a>
+<a class="channel nav-link" data-value="http://176.9.31.213:7080/live/live_channel/e71sq94uo8/49.m3u8" href="javascript:void(0);">IP1</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://104275ooyala-lh.akamaihd.net/i/forevergroup_03@449367/master.m3u8" href="javascript:void(0);">Channel 7</a>
+<a class="channel nav-link" data-value="http://portal.simiptv.co.uk:8080/live/alipajiuk/oRGQpcPAkZ/1175.m3u8" href="javascript:void(0);">xXx 1</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://maharlive.b-cdn.net/stream.m3u8" href="javascript:void(0);">Mahar</a>
+<a class="channel nav-link" data-value="http://portal.simiptv.co.uk:8080/live/alipajiuk/oRGQpcPAkZ/290.m3u8" href="javascript:void(0);">XXX 2</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://220.158.149.14:9999/live/TV00000000000000000090@HHZT;" href="javascript:void(0);">Mitv</a>
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/101.m3u8" href="javascript:void(0);">IP4</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="https://edge1a.v2h-cdn.com/appt7/MVM.stream_720p/chunklist_w2034544246.m3u8" href="javascript:void(0);">MVTV </a>
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/102.m3u8" href="javascript:void(0);">IP5</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://203.81.84.130/hls/mwd/index.m3u8" href="javascript:void(0);">MWD Variety</a>
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/103.m3u8" href="javascript:void(0);">IP6</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://203.81.84.130/hls/mwd_variety/index.m3u8" href="javascript:void(0);">MWD</a>
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/104.m3u8" href="javascript:void(0);">IP7</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://edge-stream-07.otv.co.th./livestream/Hluttaw.stream/playlist.m3u8" href="javascript:void(0);">MRTV Hluttaw</a>
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/105.m3u8" href="javascript:void(0);">IP8</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://edge-stream-07.otv.co.th/livestream/Reader-Channel.stream/playlist.m3u8" href="javascript:void(0);">Reader Channel</a>
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/106.m3u8" href="javascript:void(0);">IP9</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://edge-stream-07.otv.co.th./livestream/MNTV.stream/playlist.m3u8" href="javascript:void(0);">MNTV</a>
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/107.m3u8" href="javascript:void(0);">IP10</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="http://edge-stream-07.otv.co.th./livestream/MRTV-Entertainment.stream/playlist.m3u8" href="javascript:void(0);">MRTV Entertainment</a>
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/108.m3u8" href="javascript:void(0);">IP11</a>
             </li>
             <li class="nav-item">
-               <a class="channel nav-link" data-value="https://edge-stream-07.otv.co.th/livestream/DVB.stream/playlist.m3u8" href="javascript:void(0);">DVB</a>
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/109.m3u8" href="javascript:void(0);">IP12</a>
             </li>
             <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/110.m3u8" href="javascript:void(0);">IP13</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/111.m3u8" href="javascript:void(0);">IP14</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/112.m3u8" href="javascript:void(0);">IP15</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/113.m3u8" href="javascript:void(0);">IP16</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/114.m3u8" href="javascript:void(0);">IP17</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/115.m3u8" href="javascript:void(0);">IP18</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/116.m3u8" href="javascript:void(0);">IP19</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/117.m3u8" href="javascript:void(0);">IP20</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/118.m3u8" href="javascript:void(0);">IP21</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/119.m3u8" href="javascript:void(0);">IP22</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/120.m3u8" href="javascript:void(0);">IP23</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/121.m3u8" href="javascript:void(0);">IP24</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/122.m3u8" href="javascript:void(0);">IP25</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/123.m3u8" href="javascript:void(0);">IP26</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/124.m3u8" href="javascript:void(0);">IP27</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/125.m3u8" href="javascript:void(0);">IP28</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/126.m3u8" href="javascript:void(0);">IP29</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/127.m3u8" href="javascript:void(0);">IP30</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/128.m3u8" href="javascript:void(0);">IP31</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/129.m3u8" href="javascript:void(0);">IP32</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/130.m3u8" href="javascript:void(0);">IP33</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/131.m3u8" href="javascript:void(0);">IP34</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/132.m3u8" href="javascript:void(0);">IP35</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/133.m3u8" href="javascript:void(0);">IP36</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/134.m3u8" href="javascript:void(0);">IP37</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/135.m3u8" href="javascript:void(0);">IP38</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/136.m3u8" href="javascript:void(0);">IP39</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/137.m3u8" href="javascript:void(0);">IP40</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/138.m3u8" href="javascript:void(0);">IP41</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/139.m3u8" href="javascript:void(0);">IP42</a>
+            </li>
+            <li class="nav-item">
+<a class="channel nav-link" data-value="http://202.57.43.60:8443/live/5748aabe4c9d661afbd7f4068248f664/140.m3u8" href="javascript:void(0);">IP43</a>
+            </li>
                <a class="channel nav-link" data-value="https://edge-stream-07.otv.co.th/livestream/DVB.stream/playlist.m3u8" href="javascript:void(0);">DVB</a>
             </li>
          </ul>
@@ -158,30 +269,51 @@
                   <div class="row">
                      <div class="col-md-12">
                             <div id="TeLaSe"></div>
-                            <script>
+                            <script type="text/javascript">
                                 var playerElement = document.getElementById("TeLaSe");
                                 var player = new Clappr.Player({
-                                    source: "https://tc-live1.sanook.com/live/22302_ch5.m3u8",
-                                    //mimeType: 'application/x-mpegurl',
-									//mimeType: 'application/vdn.apple.mpegURL',
-									//mimeType: 'application/octet-stream',
-									//mimeType: 'application/x-www-form-urlencoded',
+									parentId: '#player',
+                                    source: "https://tv-trt1.live.trt.com.tr/master.m3u8",
+									poster: 'http://clappr.io/poster.png',
+									mimeType: 'ChromecastPlugin.Movie',
+                                    mimeType: 'application/x-mpegURL',
+									mimeType: "application/vnd.apple.mpegURL",
+									mimeType: 'application/octet-stream',
+									mimeType: 'application/x-www-form-urlencoded',
+									mimeType: 'video/mp4',
+                                    mimeType: 'video/m3u',
+									mimeType: "video/m3u8",
+									mimeType: 'video/mp2t',
+									mimeType: 'video/hls',
                                     width: '100%',
                                     height: 'calc(100vh - 100px)',
+									playInline: true,
+                                    crossOrigin: true,
                                     autoPlay: true,
+									flushLiveURLCache: false,
+                                    disableVideoTagContextMenu: true,
                                     watermark: "",
-                                    watermarkLink: "h",
+                                    watermarkLink: "",
                                     position: 'bottom-right',
                                     mediacontrol: {seekbar: "#00FF00", buttons: "#FFFFFF"},
                                     mute: false,
                                     gaAccount: "UA-69771681-1",
-                                    disableErrorScreen: true, // Disable the internal error screen plugin
-                                    plugins: [ChromecastPlugin,ErrorPlugin,LevelSelector,HlsjsPlayback],
+                                    disableErrorScreen: false, // Disable the internal error screen plugin
+                                    plugins: [ChromecastPlugin,ErrorPlugin,LevelSelector,HlsjsPlayback,DashShakaPlayback,Clappr.FlasHLS],
+                                 //plugins: {playback: [YoutubePlayback]},
+                                 //plugins: [DashShakaPlayback,YoutubePlayback],
                                     chromecast: {
                                         appId: "9DFB77C0",
+										contentType: "application/x-mpegURL",
+										contentType: "application/vnd.apple.mpegUR",
+                                        contentType: "application/octet-stream",
+										contentType: "application/x-www-form-urlencoded",
+										contentType: "ChromecastPlugin.Movie",	
+										contentType: "video/mp4",
+										contentType: "video/m3u",
                                         contentType: "video/m3u8",
 										contentType: "video/mp2t",
-										contentType: "video/mp4",
+										contentType: "video/hls",								
                                         media: {
                                             type: ChromecastPlugin.Movie,
                                             title: "IPTV",
@@ -215,6 +347,29 @@
       <script src="vendor/owl-carousel/owl.carousel.js"></script>
       <script src="libs/list.min.js"></script>
       <!-- Custom scripts for all pages-->
-      <script src="js/custom.js"></script>  
+	  	<script type="text/javascript"> 
+		<script src="dist/rtmp.min.js"></script>
+	    <script src="dist/clappr.js"></script>
+	    <script src="dist/clappr.js.map"></script>	 		
+        <script src="dist/clappr.min.js"></script>
+		<script src="dist/clappr-chromecast-plugin.js"></script>
+        <script src="dist/clappr-chromecast-plugin.min.js"></script>
+        <script src="dist/clappr-chromecast-plugin.min.js.map"></script>		
+        <script src="dist/level-selector.min.js"></script>
+        <script src="dist/hlsjs-playback.min.js"></script>	
+        <script src="dist/playback.min.js"></script>
+        <script src="dist/dash-shaka-playback.js"></script>	
+        <script src="dist/content.js"></script>	
+        <script src="dist/event.js"></script>
+        <script src="dist/player.js"></script>			
+		<script src="js/custom.js"></script> 
+        <script src="js/player.1.0.165.js"></script>		
+        <script src="js/jquery.js"></script>	 
+        <script src="js/jqueryui.js"></script>	 
+        <script src="js/cycle.js"></script>	 
+        <script src="js/swiper.js"></script>	 
+        <script src="js/nette.js"></script>	 
+        <script src="js/slick.min.js"></script>	 
+        <script src="js/player-error.js"></script>
    </body>
 </html>
