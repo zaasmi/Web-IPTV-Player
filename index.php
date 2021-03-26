@@ -39,7 +39,7 @@ require_once "config.php";
 		 <h5><a href="index.php">TeLaSe WebTV IPTV Player<span class="logo_colour"></span></a></h5>
          <!--<a class="navbar-brand mr-1" href="/"><img class="img-fluid" alt="" src="img/logo.png"></a>-->
           <!--Navbar Search -->
-         <div class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-5 my-2 my-md-0 osahan-navbar-search">
+         <div class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-5 my-2 my-md-10 osahan-navbar-search">
             <div class="input-group">
                <input type="text" class="form-control search" onkeyup="bait(this)" placeholder="Search for...">
                <div class="input-group-append">
@@ -50,7 +50,7 @@ require_once "config.php";
             </div>
          </div>
          <!-- Navbar -->
-         <ul class="navbar-nav ml-auto ml-md-0 osahan-right-navbar">
+         <ul class="navbar-nav ml-auto ml-md-10 osahan-right-navbar">
             <li class="nav-item mx-1">
             </li>
          </ul>
