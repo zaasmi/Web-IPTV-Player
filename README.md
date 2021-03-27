@@ -1,6 +1,6 @@
 # Web IPTV Player
 ## Edit config.php according to your site
-## You can add or remove links by editing index.php
+## You can add or remove links by editing *.php
 
 # http://iptvde.mypressonline.com
 
