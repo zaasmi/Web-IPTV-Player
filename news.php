@@ -59,23 +59,74 @@ require_once "config.php";
           <div id="lists">
          <!-- Sidebar -->
          <ul id="list" class="sidebar navbar-nav list">
-		 	<li class="nav-item">
-               <a class="channel nav-link" data-value="http://tvden.myartsonline.com/iptv2/turk.php" href=http://tvden.myartsonline.com/iptv2/turk.php>Turkey</a>
+		 		 <li class="nav-item">
+               <a class="channel nav-link" data-value="http://tvden.myartsonline.com/iptv2/" href=http://tvden.myartsonline.com/iptv2>BACK</a>
             </li>
-		    <li class="nav-item">
-               <a class="channel nav-link" data-value="http://tvden.myartsonline.com/iptv2/world.php" href=http://tvden.myartsonline.com/iptv2/world.php>Wolrds</a>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8" href="javascript:void(0);">Aqua Teen Hunger Force</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8" href="javascript:void(0);">Black Jesus</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://adultswim-vodlive.cdn.turner.com/live/daily_liveaction_1/stream.m3u8" href="javascript:void(0);">Daily Live Action</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8" href="javascript:void(0);">Dream Corp LLC</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://www.youtube.com/watch?v=NvqKZHpKs-g" href="javascript:void(0);">DW News</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://www.youtube.com/watch?v=F-uW_IswLh8" href="javascript:void(0);">Euronews</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://www.youtube.com/watch?v=6N0lbZr_wXs" href="javascript:void(0);">France 24</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://adultswim-vodlive.cdn.turner.com/live/test-2/stream.m3u8" href="javascript:void(0);">Home Movies</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://adultswimtv.warnermediacdn.com/hls/live/2007031/livestream/master_Layer7.m3u8" href="javascript:void(0);">Live Stream</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://adultswim-vodlive.cdn.turner.com/live/metalocalypse/stream.m3u8" href="javascript:void(0);">Metalocalypse</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://adultswim-vodlive.cdn.turner.com/live/mr-pickles/stream.m3u8" href="javascript:void(0);">Mr. Pickles</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8" href="javascript:void(0);">Rick and Morty</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8" href="javascript:void(0);">Robot Chicken</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://www.youtube.com/watch?v=NvCSr7qzAAM" href="javascript:void(0);">RT</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://www.youtube.com/watch?v=9Auq9mYxFEE" href="javascript:void(0);">Sky News</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://adultswim-vodlive.cdn.turner.com/live/squidbillies/stream_7.m3u8" href="javascript:void(0);">Squidbillies</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://adultswim-vodlive.cdn.turner.com/live/superjail/stream.m3u8" href="javascript:void(0);">Superjail!</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8" href="javascript:void(0);">The Eric Andre Show</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8" href="javascript:void(0);">The Venture Bros.</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://adultswim-vodlive.cdn.turner.com/tim-and-eric/stream.m3u8" href="javascript:void(0);">Tim and Eric</a>
+            </li>
+            <li class="nav-item">
+               <a class="channel nav-link" data-value="http://adultswim-vodlive.cdn.turner.com/live/williams-stream/stream_html5.m3u8" href="javascript:void(0);">Williams Stream</a>
             </li>
 			<li class="nav-item">
-               <a class="channel nav-link" data-value="http://tvden.myartsonline.com/iptv2/world.php" href=http://tvden.myartsonline.com/iptv2/world.php>News</a>
-            </li>
-			<li class="nav-item">
-               <a class="channel nav-link" data-value="http://tvden.myartsonline.com/iptv2/uk.php" href=http://tvden.myartsonline.com/iptv2/uk.php>United Kingdom</a>
-            </li>
-			<li class="nav-item">
-               <a class="channel nav-link" data-value="http://tvden.myartsonline.com/iptv2/usa.php" href=http://tvden.myartsonline.com/iptv2/usa.php>United States</a>
-            </li>
-			<li class="nav-item">
-               <a class="channel nav-link" data-value="http://tvden.myartsonline.com/iptv2/adult.php" href=http://tvden.myartsonline.com/iptv2/adult.php>Adult (XXX)</a>
+               <a class="channel nav-link" data-value="https://www.youtube.com/watch?v=WisZM9CMlTo" href="javascript:void(0);">Al Jazeera</a>
             </li>
          </ul>
          </div>
