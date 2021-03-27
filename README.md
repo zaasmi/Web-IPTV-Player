@@ -5,6 +5,7 @@
 # http://iptvde.mypressonline.com
 
 ## View
+![Demo](https://raw.githubusercontent.com/telase/Web-IPTV-Player/master/view1.jpg)
 ![Demo](https://raw.githubusercontent.com/telase/Web-IPTV-Player/master/view.jpg)
 
 
