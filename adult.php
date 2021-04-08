@@ -1,3 +1,4 @@
+<!-- 
 <?php
 require_once "config.php";
 ?>
@@ -251,3 +252,5 @@ require_once "config.php";
       <script src="js/custom.js"></script>
    </body>
 </html>
+
+-->
