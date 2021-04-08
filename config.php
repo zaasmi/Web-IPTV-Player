@@ -1,10 +1,10 @@
 <?php
 #Config file
 //Site Title
-$title = "IPTV Video Streaming Website";
+$title = "Cyberian IPTV Video Streaming";
 
 //Site URL
-$site_url = "http://tvden.myartsonline.com/iptv";
+$site_url = "/";
 
 //Site Description
 $description = "";
@@ -16,13 +16,13 @@ $watermarkImage = "";
 $watermarkLink = "";
 
 //Google Analytics tag ID
-$gaCode = "UA-69771681-1";
+$gaCode = "";
 
 //Preroll Ads Video (.mp4)
 $prerollAds = "https://raw.githubusercontent.com/telase/PRO/master/vids/flash.mp4";
 
 //Preroll Ads Time (seconds)
-$prerollTime = 3;
+$prerollTime = 5;
 
 //Preroll Ads External Link
 $prerollLink = "";
